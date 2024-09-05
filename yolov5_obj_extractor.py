@@ -24,7 +24,7 @@ for name, layer in model.model.model.named_modules():
 
 msvd_frame_loader='/mnt/4/haochen/YOLOv5_object_feature_extraction/frames'
 msvd_obj_loader='/mnt/4/haochen/YOLOv5_object_feature_extraction/obj_feats'
-#存放所有video帧文件夹路径
+# 存放所有video帧文件夹路径
 frame_folder_list=[os.path.join(msvd_frame_loader,frame_folder_name) for frame_folder_name in os.listdir(msvd_frame_loader)]
 # print(f'frame_folder_list: {frame_folder_list}') #['MSVD_VTT/MSVD/MSVD_save_frames\\_0nX-El-ySo_83_93',...]
 

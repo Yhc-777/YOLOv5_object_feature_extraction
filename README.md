@@ -1,5 +1,5 @@
 # YOLOv5_object_feature_extraction
-*<u>Using yolov516 to extract object features.</u>*
+*<u>Using yolov516.pth and fasterrcnn_resnet50_fpn_coco-258fb6c6.pth to extract object features.</u>*
 
 
 
@@ -9,7 +9,7 @@
 
 ![image-20240614155704952](./imgs/1.png)
 
-## 2、Setup Envs
+# 2、Setup Envs
 
 ```shell
 git clone https://github.com/Yhc-777/YOLOv5_object_feature_extraction.git
@@ -24,13 +24,7 @@ pip install opencv-python h5py pandas
 
 ```shell
 python yolov5_obj_extractor.py
+python fasterrcnn_obj_extractor.py
 ```
 
 - Then you can get ".h5" file.
-
-# 4、Resources
-
-- You can get some useful resources(demo frames、obj_feats、yolov5l6.pt) in this link: 
-
-  链接：https://pan.baidu.com/s/1Xg9Kvcn4_9cghtDszVX7Ag?pwd=pa0f 
-  提取码：pa0f 
