@@ -1,4 +1,4 @@
-# YOLOv5_object_feature_extraction
+# object_feature_extraction
 *<u>Using yolov516.pth and fasterrcnn_resnet50_fpn_coco-258fb6c6.pth to extract object features.</u>*
 
 
