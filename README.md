@@ -7,7 +7,7 @@
 
 - You can put your files like this:
 
-![1](.\imgs\1.png)
+![1](./imgs/1.png)
 
 # 2、Setup Envs
 
